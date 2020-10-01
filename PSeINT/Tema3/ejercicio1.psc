@@ -1,4 +1,7 @@
 Algoritmo sin_titulo
+	Definir primernumero Como real
+	Definir segundonumero Como real
+	
 	Escribir "Dame el primer numero"
 	Leer primernumero
 	Escribir "Dame el segundo numero"

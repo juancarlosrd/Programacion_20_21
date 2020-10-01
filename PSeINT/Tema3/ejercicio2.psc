@@ -1,4 +1,5 @@
 Algoritmo sin_titulo
+	Definir primernumero Como Entero
 	Escribir "Dime un numero"
 	leer primernumero
 	
