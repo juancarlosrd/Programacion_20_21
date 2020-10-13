@@ -8,9 +8,7 @@ Algoritmo sin_titulo
 		Leer numero1
 		Leer numero2
 		
-		Si numero1 <> 0 o numero2 <> 0 Entonces
-			Escribir "Su suma es " numero1 + numero2 " Vuelve a introducir pares de numeros"
-		FinSi
+		Escribir "Su suma es " numero1 + numero2 " Vuelve a introducir pares de numeros"
 	Hasta Que numero1 = 0 y numero2 = 0
 	Escribir "Has introducido dos cero, error"
 FinAlgoritmo
