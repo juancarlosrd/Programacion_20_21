@@ -8,7 +8,7 @@ public class ejercicio3 {
     double nota1;
     double nota2;
     double nota3;
-    int resultado;
+    double resultado;
 
     Scanner sc = new Scanner(System.in);
     System.out.println("Introduce las tres notas: ");
