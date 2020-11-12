@@ -8,12 +8,15 @@ public class ejercicio4 {
     int num;
     int positivo = 0;
     int negativo = 0;
+    int contador = 10;
 
     Scanner sc = new Scanner(System.in);
 
     for (int i = 1; i <= 10; i++) {
-      System.out.println("Introduce  numero:");
+      System.out.println("Introduce los numeros:");
       num = sc.nextInt();
+      contador--;
+      System.out.println("Quedan " + contador + " números por introducir.");
 
       if (num >= 0) {
         positivo++;
@@ -22,6 +25,6 @@ public class ejercicio4 {
       }
     }
     System.out.println("Total de numeros positivos: " + positivo);
-    System.out.println("Ttoal de numeros negativos: " + negativo);
+    System.out.println("Total de numeros negativos: " + negativo);
   }
 }
